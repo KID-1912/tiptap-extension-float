@@ -1,6 +1,6 @@
 {
   "name": "tiptap-extension-float",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension to add float to your tiptap content.",
   "main": "src/index.js",
   "scripts": {

@@ -16,9 +16,8 @@ export default Extension.create({
             default: "default",
             parseHTML: (element) => {
               const float = element.style.float;
-              if (!["left", "right"].includes(float))
-                return { float: "default" };
-              return { float };
+              if (!["left", "right"].includes(float)) return "default";
+              return float;
             },
             renderHTML: (attributes) => {
               if (attributes.float === "default") return {};
